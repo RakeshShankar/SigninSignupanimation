@@ -3,7 +3,7 @@ const signupbtn = document.querySelector("#sign-up-btn");
 const contanier = document.querySelector(".container");
 
 signupbtn.addEventListener('click', () => {
-    contanier.classList.add("sign-up-mode");
+    contanier.classList.remove("sign-up-mode");
 })
 
 signinbtn.addEventListener('click', () => {
